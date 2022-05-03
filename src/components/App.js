@@ -1,6 +1,6 @@
 import React from "react";
-import DragList from "./DragList";
-import DropList from "./DropList";
+import Repo from "./Repo";
+import Node from "./Node";
 import "./App.css";
 
 function App() {
@@ -8,10 +8,10 @@ function App() {
     <div className="container-fluid" style={{ height: "100vh" }}>
       <div className="row" style={{ height: "100%" }}>
         <div className="col-6" style={{ height: "100%", padding: "20px" }}>
-          <DragList />
+          <Repo />
         </div>
         <div className="col-6" style={{ height: "100%", padding: "20px" }}>
-          <DropList />
+          <Node />
         </div>
       </div>
     </div>
